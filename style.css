@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* # Our Style */
+*{
+	box-sizing: border-box;
+	line-height: 1.5;
+}
+body{
+    font-size: 16px;
+	background-color: aquamarine;
+}
+.header{
+	height: 100px;
+	line-height: 90px;
+}
+nav{
+	background-color: rgb(180, 177, 177);
+	padding: 10px 32px;
+	position: fixed;
+	left: 0;
+	right: 0;
+}
+.link{
+	float: right;
+}
+.nav_img img{
+	float: left;
+	width: 65px;
+	vertical-align: middle;
+}
+nav a{
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-left: 18px;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 30px;
+	
+}
+.col-1{
+	float: left;
+	width: 47%;
+	margin: 3% 1.5%;
+	font-size: 20px;
+	line-height: 1.6;
+}
+.col-1 h2{
+	font-size: 30px;
+	font-weight: 600;
+}
+.col-1-2 img{
+	width: 31%;
+	height: 250px;
+	object-fit: cover;
+	margin: 1%;
+}
+footer{
+	background-color: rgb(211, 206, 206);
+	text-align: center;
+	padding: 20px;
+}
+footer a{
+	margin-left: 16px;
+	font-size: 17px;
+}
+#top{
+	float: right;
+	font-size: 18px;
+	color: #fff;
+	padding: 10px;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: orangered;
+	border-radius: 48%;
+	border: 1px solid black;
+}
+
+.clearfix::before, .clearfix::after{
+	content: "";
+	display: table;
+}
+.clearfix::after{
+	clear: both;
+}
