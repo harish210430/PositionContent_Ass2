@@ -57,23 +57,21 @@ body{
 	background-color: aquamarine;
 }
 .header{
-	height: 100px;
-	line-height: 90px;
-}
-nav{
-	background-color: rgb(180, 177, 177);
-	padding: 10px 32px;
+    background-color: rgb(180, 177, 177);
+	height: 70px;
+	line-height: 70px;
 	position: fixed;
-	left: 0;
-	right: 0;
+    width: 100%;
 }
-.link{
-	float: right;
+.nav{
+    float: right;
 }
-.nav_img img{
+.brand{
 	float: left;
-	width: 65px;
-	vertical-align: middle;
+}
+.brand img{
+    width: 55px;
+    vertical-align: middle;
 }
 nav a{
 	color: #fff;
@@ -85,8 +83,11 @@ nav a{
 .container{
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 30px;
+	padding: 0 30px;
 	
+}
+.article{
+	padding: 100px 0;
 }
 .col-1{
 	float: left;
@@ -95,11 +96,15 @@ nav a{
 	font-size: 20px;
 	line-height: 1.6;
 }
+.col-1 img{
+	width: 100%;
+}
 .col-1 h2{
 	font-size: 30px;
 	font-weight: 600;
 }
 .col-1-2 img{
+	float: left;
 	width: 31%;
 	height: 250px;
 	object-fit: cover;
@@ -115,17 +120,17 @@ footer a{
 	font-size: 17px;
 }
 #top{
-	float: right;
-	font-size: 18px;
+	width: 50px;
 	color: #fff;
 	padding: 10px;
 	position: fixed;
 	right: 50px;
 	bottom: 50px;
+	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
 	background-color: orangered;
-	border-radius: 48%;
+	border-radius: 50%;
 	border: 1px solid black;
 }
 
